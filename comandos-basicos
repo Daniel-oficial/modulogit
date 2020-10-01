@@ -37,3 +37,12 @@ git reset -hard
 
 git diff
 // mostra as alterações
+
+git diff --name-only
+// mostra as alteração por nome de pasta
+
+git checkout HEAD -- nomeDoArquivo
+// para voltar as antigas alteração
+
+git checkout
+// serve para voltar em um arquivo ou branch
