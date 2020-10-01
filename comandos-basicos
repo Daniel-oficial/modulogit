@@ -1,0 +1,39 @@
+git config --global user.name "Seu nome"
+git config --global user.email "Seu email"
+git config --global core.editor editor
+git config --global user.email "Seu email"
+
+// git para chamar 
+// --global 
+
+
+git init
+//serve para iniciar um repositório
+
+git status
+// mostra os status do repositório
+
+git add "nome"
+//adiciona no repositório
+
+git add -A
+//adiciona todos os arquivos
+
+git commit -m "mensagem"
+//adiciona commit em todos os arquivos
+
+git log
+// mostra os commits
+
+git reset -soft 
+// volta para commit, mas pode ser possivel ter as modificações do outros projetos
+
+git reset -mixer 
+// mesma coisa do -soft, mas ele adiciona os arquivos 
+
+git reset -hard
+// volta para o commit, mas apaga os outros 
+
+
+git diff
+// mostra as alterações
